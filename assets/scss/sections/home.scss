@@ -1,0 +1,43 @@
+// Home Section
+
+.home {
+
+    height: 1192px;
+    width: 100%;
+    background-image: url("../images/home-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-attachment: fixed;
+    padding-top: 186px;
+    position: relative;
+
+    &__container {
+        position: relative;
+        z-index: 2;
+    }
+
+    &__offer {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    &__title {
+        max-width: 1128px;
+    }
+
+    &__subtitle {
+        max-width: 583px;
+        margin: 24px 0 42px 0;
+    }
+
+    &::before {
+        content: "";
+        height: 208px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 83.65%);
+        z-index: 1;
+    }
+}

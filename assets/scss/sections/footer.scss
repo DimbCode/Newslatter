@@ -1,0 +1,66 @@
+// Footer
+
+.footer {
+
+    width: 100%;
+    padding: 120px 0;
+    background-image: linear-gradient(93.99deg, #566270 0.51%, #283444 100%);
+    margin-top: 209px;
+
+    &__top-section {
+        justify-content: space-between;
+        padding-bottom: 52px;
+    }
+
+    &__logo {
+        font-weight: $semiboldFont;
+        font-size: 48px;
+        line-height: 56px;
+        color: $white;
+        margin-bottom: 25px;
+    }
+
+    &__right-section {
+        align-items: flex-start;
+        gap: 87px;
+    }
+
+    &__link-list > *:not(:last-child) {
+        margin-bottom: 16px;
+    }
+
+    &__link-list-title {
+        margin-bottom: 33px;
+        font-weight: $boldFont;
+        font-size: 24px;
+        line-height: 140%;
+        color: $white;
+    }
+
+    &__link,
+    &__text {
+        display: inline-block;
+        font-weight: $semiboldFont;
+        font-size: 16px;
+        line-height: 150%;
+        color: $white;
+        max-width: 340px;
+        transition: color .2s ease;
+    }
+
+    &__link:hover {
+        color: $secondaryGray;
+    }
+
+    &__bottom-section {
+        border-top: 1px solid $white;
+        padding-top: 52px;
+        text-align: center;
+    }
+
+    &__rights-reserved {
+        font-size: 24px;
+        line-height: 28px;
+        color: $white;
+    }
+}

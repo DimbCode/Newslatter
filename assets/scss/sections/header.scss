@@ -1,0 +1,61 @@
+// Header Variables
+
+.header {
+
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    top: 57px;
+
+    &__container {
+        position: relative;
+    }
+
+    &__section {
+        &_right {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translate(0, -50%);
+        }
+    }
+
+    &__link-list > *:not(:last-child) {
+        margin-right: 68px;
+    }
+
+    &__link {
+        font-size: 24px;
+        line-height: 28px;
+        text-decoration: none;
+        color: $white;
+        transition: color .2s ease;
+
+        &_active {
+            background: $activeColor;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        &:hover {
+            color: $secondaryGray;
+        }
+    }
+
+    &__cart-button {
+        background: none;
+        outline: none;
+        border: none;
+        &-icon {
+            width: 36px;
+            fill: white;
+            transition: fill .2s ease;
+
+            &:hover {
+                fill: $secondaryGray;
+            }
+        }
+    }
+}

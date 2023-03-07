@@ -1,0 +1,37 @@
+// Advantages
+
+.advantages {
+
+    width: 100%;
+    margin-top: 105px;
+
+    &__items {
+        justify-content: space-between;
+    }
+}
+
+.advantage {
+
+    display: flex;
+    align-items: center;
+    gap: 34px;
+
+    &__icon {
+        width: 63px;
+    }
+
+    &__title {
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        color: $black;
+    }
+
+    &__subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: $secondaryGray;
+    }
+}

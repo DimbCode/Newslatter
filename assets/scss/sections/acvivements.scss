@@ -1,0 +1,57 @@
+// Achivements
+
+.achivements {
+
+    width: 100%;
+    margin-top: 182px;
+
+    &__container {
+        justify-content: space-between;
+    }
+
+    &__header {
+        margin-bottom: 82px;
+    }
+
+    &__title-mini {
+        max-width: 452px;
+    }
+
+    &__subtitle {
+        color: $primaryGray;
+        margin-top: 28px;
+    }
+
+    &__items > *:not(:last-child) {
+        margin-bottom: 32px;
+    }
+}
+
+.achivement {
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    &__icon {
+        width: 68px;
+    }
+
+    &__right-section {
+        max-width: 493px;
+    }
+
+    &__title {
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    &__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+        color: $primaryGray;
+    }
+}
+

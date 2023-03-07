@@ -1,0 +1,29 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+// Zeroing-out File
+
+@import "ZeroingOut.scss";
+
+// Variables File
+
+@import "variables.scss";
+
+// General Classes File
+
+@import "generalClasses.scss";
+
+// Started Styles File
+
+@import "startedStyles.scss";
+
+// Sections Files
+
+@import "sections/header.scss";
+@import "sections/home.scss";
+@import "sections/advantages.scss";
+@import "sections/services.scss";
+@import "sections/templates.scss";
+@import "sections/acvivements.scss";
+@import "sections/footer.scss";
